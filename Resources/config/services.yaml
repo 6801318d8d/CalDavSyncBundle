@@ -1,0 +1,10 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+        bind:
+            $projectDir: '%kernel.project_dir%'
+
+    KimaiPlugin\CalDavSyncBundle\:
+        resource: '../../{CalDav,Command,EventSubscriber,Sync}/'

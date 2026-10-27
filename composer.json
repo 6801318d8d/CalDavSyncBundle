@@ -1,0 +1,25 @@
+{
+    "name": "6801318d8d/caldav-sync-bundle",
+    "description": "Copy finished Kimai timesheets into any CalDAV calendar (one way), as they are saved",
+    "homepage": "https://github.com/6801318d8d/CalDavSyncBundle",
+    "type": "kimai-plugin",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "6801318d8d",
+            "homepage": "https://github.com/6801318d8d"
+        }
+    ],
+    "extra": {
+        "kimai": {
+            "require": 20000,
+            "name": "CalDAV sync"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "KimaiPlugin\\CalDavSyncBundle\\": ""
+        }
+    }
+}
